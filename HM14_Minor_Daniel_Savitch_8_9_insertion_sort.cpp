@@ -3,15 +3,12 @@
 //Homework # 14
 //Problem # (Savitch problem 8-9)
 //Insertion Sort using vectors, rather than arrays.
-//Students worked with: Jake Smith
-
-
-
 #include <iostream>
 #include <fstream>
 #include<vector>
 using namespace std;
 
+//Function definitions 
 void swap(int& ken, int& takata);
 void input(vector<int> &fill_w_num);
 void output(vector<int> fill_w_num);
@@ -20,7 +17,6 @@ void insertion_sort(vector<int> &fill_w_num);
 int main()
 {
 	vector<int> fill_w_num;
-
 	input(fill_w_num);
 	insertion_sort(fill_w_num);
 	output(fill_w_num);
